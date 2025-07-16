@@ -52,3 +52,24 @@ h1 {
     grid-template-columns: 1fr 1fr;
   }
 }
+.tool {
+  transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.3s ease;
+}
+
+.tool:hover {
+  transform: translateY(-5px);
+  background: #e6f7ff;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+}
+footer {
+  margin-top: 50px;
+  font-size: 0.9em;
+  color: #999;
+}
+footer a {
+  color: #007acc;
+  text-decoration: none;
+}
+footer a:hover {
+  text-decoration: underline;
+}
